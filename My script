@@ -9,6 +9,10 @@ game.Players.PlayerAdded:connect(function(player)
   end
 end)
 
+
+
+
+
 getgenv().Settings = {
 	["Silent"] = {
 		["Enabled"] = true,
