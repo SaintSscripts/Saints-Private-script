@@ -1,17 +1,3 @@
-Local MarketplaceService = game:GetService("MarketplaceService")
-Local Gamepassld - 756224113 --
-
-game.Players.PlayerAdded:connect(function(player)
-  if MarketplaceService:UserOwmsGamePassAsync(Player.UserId, GamepassId) then
-      print("Whitelisted")
-  clsc
-       Player:Kick ()
-  end
-end)
-
-
-
-
 
 getgenv().Settings = {
 	["Silent"] = {
